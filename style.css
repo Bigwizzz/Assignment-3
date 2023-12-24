@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color:#F5F8FA;
+    height: 95vh;
+    width: 95vw;
+
+  }
+
+  header {
+    color: black;
+    padding: 15px 25px 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+  }
+
+  .logo {
+    width: 200px; /* Set the width of your logo */
+    height: auto;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  .tab {
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  .tab:last-child {
+    border-radius: 10px; /* Set the border radius for the last tab */
+    border: 2px solid #060606; /* Set the border style for the last tab */
+  }
+
+  #body{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 892px;
+      height: 795px;
+      padding-left: 20%; /* incase it over flows */
+      display: grid;
+      grid-template-areas: "left right";
+      grid-template-columns: 3fr 1fr;
+  }
+  #left{
+      padding: 20px;
+      grid-area: "left";
+      width: 580px;
+      height: 795px;
+  }
+  #right{
+
+      grid-area: "right";
+      width: 312px;
+      background-color: #1179BF;
+      color: white;
+      padding: 20px;
+      height: 795px;
+      /* height: 400px; */
+    
+  }
+  h2{
+    font-weight: 100;
+  }
+
+  .shadow-text{
+      color: #1D2C3C;
+      font-size: 30;
+      font-weight: 400;
+      padding-left: 20px;
+      text-align: left;
+      padding-bottom: 5%;
+    text-shadow: 2px 2px 4px  #00000040;
+/* Set the text shadow */
+    border-bottom: 2px solid #ccc;
+  }
+  .custom-text {
+    font-weight: bold;
+    border: 2px solid #548BC5;
+    border-radius: 50%;
+    padding: 7px;
+    color: #548BC5;
+    text-align: center;
+    width: 15px;
+    display: inline-block; /* Ensures that the border-radius is applied properly */
+  }
+  .section-header{
+      font-weight: bold;
+  }
+  #first-section{
+      height: 221px;
+      /* background-color: blue; */
+      margin-bottom: 50px;
+      margin-top: 50px;
+  }
+  #second-section{
+      height: 154px;
+      /* background-color: pink; */
+      margin-bottom: 50px;
+      margin-top: 50px;
+  }
+  #third-section{
+      height: 146px;
+      padding: 10px 8%;
+      margin-bottom: 50px;
+      margin-top: 50px;
+      text-align: center;
+  }
+  .bottom-nav {
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 8px 0; /* Adjust the padding for desired height */
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;}
+    .input-group {
+  margin-bottom: 25px; /* Add space between input groups */
+  display: inline-block;
+  margin-left: 5px;
+  height: 36px;
+  padding: 10px;
+    }
+label{
+display: block;
+margin-bottom: 10px;
+}
+#input-btn{
+width: 226px;
+padding: 10px;
+background-color: #EDEFF2;
+border: none;
+
+}
+#input-btn.email{
+width: 370px;
+
+padding: 10px;
+}
+
+#input-btn:focus{
+outline: none;
+border: 2px solid #038E7D;
+}
+
+.credit-card{
+margin-left: 10px;
+width: 483px;
+padding: 10px;
+color: #636B6F;
+background-color: #EDEFF2;
+}
+label{
+margin-left: 10px;
+}
+.credit-card-label{
+margin-left: 20px;
+}
+
+.btn{
+width: 483px;
+background-color: #038E7D;
+border: none;
+outline: none;
+padding: 10px;
+color: white;
+
+}
+.subscription-price {
+  font-size: 24px;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.dollar-sign {
+  font-size: 0.8em;
+  line-height: 1; /* Adjust the line-height */
+  margin-right: 2px;
+}
+
+.price-number {
+  font-size: 1.5em;
+  line-height: 0.8; /* Adjust the line-height */
+  vertical-align: super;
+}
+
+
+ul {
+          list-style-type: none;
+          padding: 0;
+          margin-top: 15%;
+      }
+
+      li {
+          margin-bottom: 30px;
+          padding-left: 30px;
+          position: relative;
+      }
+
+      .check-mark {
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 20px;
+          height: 20px;
+          border: 2px solid #fff;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          font-size: 14px;
+      }
+      .blog-post {
+          display: flex;
+          align-items: center;
+      }
+
+      .profile-image {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%; /* Create a circular border */
+          overflow: hidden; /* Hide the overflow of the circular shape */
+          margin-right: 15px;
+      }
+
+      .profile-image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; /* Maintain aspect ratio and cover the circular shape */
+      }
+
+      .profile-name {
+          font-size: 16px;
+          font-weight: bold;
+          /* color: #333; */
+      }
